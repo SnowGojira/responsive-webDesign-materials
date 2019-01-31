@@ -2,47 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Frame works</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap works</title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 </head>
 <body>
-    <div class="grid">
+    <div class="container">
         <div class="row">
-            <div class="col-6"><img src="https://via.placeholder.com/100x100"></div>
-            <div class="col-6 name">
-                <h1>Haku Hal</h1>
-                <h2>Front-end Ninja</h2>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/100">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin">Haku Hal</h1>
+                <h4>Front-end Ninja</h4>
             </div>
         </div>
 
         <div class="row">
-            <img class="banner" src="https://via.placeholder.com/960x350">
+            <div class="col-md-12">
+                <hr>
+            </div>
         </div>
 
         <div class="row">
-            <h3>featured work</h3>
+            <div class="col-md-12">
+               <img class="banner img-fluid" src="https://via.placeholder.com/1140x350" alt="responsive image">
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-4">
-                 <img src="https://via.placeholder.com/200x150">
+            <div class="col-md-12">
+                <h3 class="text-mute">featured work</h3>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                 <img class="img-fluid" src="https://via.placeholder.com/555x300">
                  <h4>Applify</h4>
                  <p><a href="#">link to project</a></p>
             </div>
-            <div class="col-4">
-                <img class src="https://via.placeholder.com/200x150">
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://via.placeholder.com/555x300">
                  <h4>Applify</h4>
                  <p><a href="#">link to project</a></p>
             </div>
-            <div class="col-4">
-                <img  src="https://via.placeholder.com/200x150">
+
+            <div class="col-md-4">
+                 <img class="img-fluid" src="https://via.placeholder.com/555x300">
                  <h4>Applify</h4>
                  <p><a href="#">link to project</a></p>
             </div>
         </div>
+
     </div>
 </body>
 </html>
