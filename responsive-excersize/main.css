@@ -370,3 +370,19 @@ footer a {
   text-decoration: none;
   color: #333;
 }
+
+@media only screen and (max-width:800px){
+
+  main, .header__inner, .nav, .hero,.news, .scores, .weather{
+    width: 100%;
+  }
+
+  .top-news{
+    height:auto;
+  }
+  
+  a{
+    width: 48px;
+    height:48px;
+  }
+}
