@@ -1,0 +1,12 @@
+#box{
+
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid black;
+}
+
+#button{
+   margin-top: 80px;
+}

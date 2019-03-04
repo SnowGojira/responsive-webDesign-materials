@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Stop Propagation Example</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+<div id="box">
+    <button id="button">Click & Press</button>
+</div>
+
+<script>
+    /*添加两个点击事件,看看被激发的是谁*/
+    var box,btn;
+    box=document.getElementById('box');
+    btn=document.getElementById('button');
+
+    box.addEventListener('click',function (e) {
+        box.style.background='red';
+    });
+
+    btn.addEventListener('click',function (e) {
+       console.log("button has been clicked");
+       e.stopPropagation();
+    });
+
+
+</script>
+
+</body>
+</html>

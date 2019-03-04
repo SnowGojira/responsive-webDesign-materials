@@ -5,30 +5,17 @@ html {
   width: 100%;
   height: 100%;
 }
-
 body {
   font-family: Roboto;
   font-size: 12px;
   color: #424242;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   margin: 0; 
 }
-
-header,
-nav, 
-footer, 
-section, 
-article, 
-div {
+header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
-
 ul {
   list-style: none;
   padding: 0;
@@ -81,6 +68,7 @@ ul {
   margin: 0.5em 0.25em;
   display: inline-block;
   color: #212121;
+  /* flex-grow: 2; */
 }
 
 
@@ -112,16 +100,7 @@ ul {
   text-transform: uppercase;
 }
 
-.nav a {
-  text-decoration: none;
-  color: #616161;
-  padding: 1.5em;
-}
 
-.nav a:hover {
-  text-decoration: underline;
-  color: #212121;
-}
 
 
 /*
@@ -376,26 +355,22 @@ footer a {
   padding: 1.5em;
 }
 
-#menu{
-  display: none;
+
+.header__inner{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header__logo{
+  height: 40px;
+  /* flex-grow: 1; */
+}
+
+.header__inner h1{
+  font-size:2rem;
 }
 
 
-@media screen and (max-width: 600px){
- .header__inner{
-  display: flex;
-  flex-wrap: nowrap;
-  
-  
- }
- .header__logo{
-  height: 40px;
-
- }
-
- .header__inner h1{
-  font-size:2rem;
- }
 .nav{
   width: 300px;
   position: absolute;
@@ -424,14 +399,38 @@ nav.open {
 
 #menu{
   display: block;
+  margin-top: 21px;
+  /* flex-grow: 1; */
 }
 
-#menu svg{
+#menu svg{width: 2rem;height: 2rem;/* color: #eee; */}
 
-  width: 1.5rem;
-  height: 1.5rem;
+.top-news{
+  height: auto;
+}
+/*
+*
+*the first breakpoint
+*
+*/
+
+@media only screen and (max-width:550px){
+
+
+
+
 }
 
+@media only screen and (min-device-width:451px) and (max-device-width:700px){
 
+  .nav a {
+    text-decoration: none;
+    color: #616161;
+    padding: 1.5em;
+  }
 
+  .nav a:hover {
+    text-decoration: underline;
+    color: #212121;
+  }
 }
