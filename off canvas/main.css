@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto,Arial,sans-serif;
   font-size: 12px;
   color: #424242;
 }
@@ -26,15 +26,6 @@ ul {
 }
 
 
-/*
- *
- * Common
- * 
- */
-/*body{
-  
-}*/
-
 nav{
   width: 300px;
   height: 100%;
@@ -45,7 +36,6 @@ nav{
   transform: translate(-300px, 0);
   /* Optionally, we animate the drawer. */
   transition: transform 0.3s ease;
-  /*display: none;*/
 }
 
 nav.open {
@@ -73,27 +63,24 @@ main{
 
 
 @media only screen and (min-width:600px) {
- nav p, main p{
-  text-decoration: line-through;
- }
- 
- nav{
-  transform: translate(0,0);
-  position: relative;
- }
+    nav p, main p{
+        text-decoration: line-through;
+    }
 
- body{
-  display: flex;
-}
+    nav{
+        transform: translate(0,0);
+        position: relative;
+    }
 
- main{
-  width: auto;
-  flex-grow: 1;
- }
+    body{
+        display: flex;
+    }
 
-
-  
-
+    main{
+        width: auto;
+        /*width: 100%;*/
+        flex-grow: 1;
+    }
 }
 
 
