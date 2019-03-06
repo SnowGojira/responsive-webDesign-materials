@@ -22,8 +22,8 @@
             <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
           </svg>
         </a>
-
       </div>
+
     </header>
 
     <nav id="drawer" class="nav">
@@ -34,6 +34,7 @@
         <li class="nav__item"><a href="#">Blog</a></li>
       </ul>
     </nav>
+
 
     <main>
       <section class="content">
@@ -186,14 +187,14 @@
       </footer>
     </main>
 
-  <script>
-      var menu = document.querySelector('#menu');
-      var drawer = document.querySelector('#drawer');
+    <script>
+        var menu = document.querySelector('#menu');
+        var drawer = document.querySelector('#drawer');
 
-      menu.addEventListener('click', function(e) {
-          drawer.classList.toggle('open');
-          e.stopPropagation();
-      });
-  </script>
+        menu.addEventListener('click', function(e) {
+            drawer.classList.toggle('open');
+            e.stopPropagation();
+        });
+    </script>
   </body>
 </html>
