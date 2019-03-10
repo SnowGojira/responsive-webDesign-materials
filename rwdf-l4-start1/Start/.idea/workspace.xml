@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbea8049-88a1-4ce3-8a6f-d4783c62cb93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hakuh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rwdf-l4-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rwdf-l4-start/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rwdf-l4-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../rwdf-l4-start/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="bbea8049-88a1-4ce3-8a6f-d4783c62cb93" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -95,9 +89,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="453" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="75" />
+    <option name="y" value="57" />
     <option name="width" value="1740" />
     <option name="height" value="1095" />
   </component>
@@ -152,15 +146,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551843578560</updated>
-      <workItem from="1551843580310" duration="4606000" />
+      <workItem from="1551843580310" duration="5098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4606000" />
+    <option name="totallyTimeSpent" value="5098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="9" width="1392" height="876" extended-state="0" />
+    <frame x="60" y="46" width="1392" height="876" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
