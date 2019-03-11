@@ -25,5 +25,11 @@ h1 {
 }
 
 img {
+    max-width: 100%;
+    background-position: center center;
+    background-size: 100%;
+}
 
+.still_life{
+    background: url("../images/still_life-small_xs.jpg") no-repeat 0 0;
 }
